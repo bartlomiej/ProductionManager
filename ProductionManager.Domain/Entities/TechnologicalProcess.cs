@@ -14,5 +14,6 @@ namespace ProductionManager.Domain.Entities
         public TechnologicalProcessVersion Version { get; set; }
         public short Subversion { get; set; }
         public string Uwagi { get; set; }
+        public IEnumerable<TechnologicalProcessOperation> Operations { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace ProductionManager.Domain.Entities
         public int ProcessId { get; set; }
         public int OperationId { get; set; }
         public Operation Operation { get; set; }
-
-
+        public int SetUpTime { get; set; }
+        public int UnitTime { get; set; }
     }
 }
